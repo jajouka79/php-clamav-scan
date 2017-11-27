@@ -1,5 +1,14 @@
 {
     "name": "jajouka79/php-clamav-scan",
     "description": "This is a fork form kissit",
-    "version": "0.3.0"
+    "version": "0.3.0",
+
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpClamAvScan\\": "src/"
+        }
+    }
 }
